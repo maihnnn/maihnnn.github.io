@@ -96,7 +96,7 @@ $('#yes').click(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'Nói cho bé lí do mà nhớ bé đi :vvvv',
+        title: 'Nói cho bé lí do nhớ bé đi :vvvv',
         html: true,
         width: 900,
         padding: '3em',
@@ -121,7 +121,7 @@ $('#yes').click(function() {
                 width: 900,
                 confirmButtonText: 'Okiiiii lun <3',
                 background: '#fff url("img/iput-bg.jpg")',
-                title: 'Tớ biết mà ^^ Yêu nèeee 300.000',
+                title: 'Bé biết mà ^^ Yêu nèeee 300.000',
                 text: "Bé cũm zị :> Còn giờ thì chờ gì nữa mà ko inbox cho bé đi nàoooooo",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
